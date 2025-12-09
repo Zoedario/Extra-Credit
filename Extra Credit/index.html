@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Zoe Reese Logo</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Modak&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --fig: #6D143C;         /* deep plum fig */
+      --pistachio: #7EA876;   /* muted pistachio green */
+      --cream: #FFF7E8;       /* warm cream background */
+    }
+
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--cream);
+    }
+
+    .logo {
+      text-align: center;
+      line-height: 0.7;
+    }
+
+    .zoe {
+      font-family: 'Modak', cursive;
+      font-size: 16vw;
+      color: var(--fig);
+      font-weight: 400;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .reese {
+      font-family: 'Great Vibes', cursive;
+      font-size: 12vw;
+      color: var(--pistachio);
+      margin: -1vw 0 0 0;
+    }
+
+    @media (max-width: 600px) {
+      .zoe { font-size: 28vw; }
+      .reese { font-size: 20vw; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="logo">
+    <div class="zoe">ZOE</div>
+    <div class="reese">Reese</div>
+  </div>
+</body>
+</html>
